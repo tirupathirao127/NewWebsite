@@ -1,2 +1,2 @@
 # NewWebsite
-Sample website to learn development concepts on daily basis
+Sample website to learn development concepts
