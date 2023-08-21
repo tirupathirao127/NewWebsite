@@ -1,26 +1,30 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Sign In to Your Account</title>
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+        <script src="./js/sample.js"></script>
     </head>
 
     <body>
-        <form>
+        <form class="signinRegisterCSS" >
+       <!-- <form class="signinRegisterCSS" style="left: 50%; top: 50%; position:absolute; transform : translate(-50%, -50%)""></form> -->
         <table>
             <thead>Enter your credentials</thead>
             <tr>
                 <td>Enter username: </td>
-                <td><input type="text"/></td>
+                <td><input type="text"/></td> </tr><br>
             </tr>
             <tr>
                 <td>Enter password: </td>
-                <td><input type="password"/></td>
+                <td><input type="password"/></td><br>
             </tr>
             <tr>
                 <td><input type="submit" value="Submit"/></td>
                 <td><input type="reset" value="Cancel"/></td>
             </tr>
         </table>
-        </form>
         <p>Don't have an account?. <a href="register.html" target="_self">click here</a> to Register</p>
+        </form>
     </body>
 </html>
